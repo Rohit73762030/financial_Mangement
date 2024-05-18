@@ -1,0 +1,48 @@
+@charset "UTF-8";
+.carousel-inner {
+	position: relative;
+	height: 100%;
+}
+
+.carousel img {
+	margin-top: 2px;
+	max-height: 500px;
+	object-fit: cover;
+}
+
+.logout-button {
+	position: absolute;
+	margin-top: 20px;
+	margin-right: 0px;
+}
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.profile-icon {
+	position: relative;
+	display: inline-block;
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	background-color: #f0f0f0;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	font-size: 36px;
+	line-height: 50px;
+	color: #555;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+.iconp {
+	height: 10px
+}
+
+.profile-icon:hover {
+	background-color: #ddd;
+}
+
+.hh {
+	margin-top: -1px;
+	background-color: #563d7c;
+}
